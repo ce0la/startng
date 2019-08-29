@@ -1,9 +1,36 @@
 body {
-    background: url("https://res.cloudinary.com/ce0la/image/upload/e_grayscale,o_21/v1566682597/code-cloud-wallpaper-18_aydkvi.png");
+    background-color: rgb(238, 230, 240);
     margin: auto;
-    width: 600px;
+    width: 80%;
+    color: rgb(57, 29, 61);
+}
+
+#header-name {
+    background: purple;
+    text-align: left;
+    color: beige;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 0%;
 }
 
 img {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 150px, 130px;
+    border: 5px, solid, pink;
+}
+
+h3 {
+    color: rgb(255, 208, 0);
+}
+
+#info {
+    margin-left: 100px;
+    border: 5px, solid, blue;
 }
