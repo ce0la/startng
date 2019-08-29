@@ -24,7 +24,9 @@ body {
 }
 
 nav {
-    position: relative;
+    position: fixed;
+    top: 35px;
+    right: 5px;
     float: right;
 }
 
