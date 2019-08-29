@@ -1,17 +1,39 @@
 body {
     background-color: rgb(238, 230, 240);
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     width: 80%;
     color: rgb(57, 29, 61);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* [first-line] {
+    margin-top: 10px;
+} */
+
 #header-name {
-    background: purple;
+    /* background: purple; */
+    font-size: 35px;
     text-align: left;
-    color: beige;
-    padding: 10px;
+    color: rgb(57, 29, 61);
+    /* padding: 10px; */
     border-radius: 3px;
-    margin-top: 0%;
+    /* margin-top: 15px; */
+    font-weight: bold;
+}
+
+nav {
+    position: relative;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkviolet;
 }
 
 img {
@@ -30,7 +52,7 @@ h3 {
     color: rgb(255, 208, 0);
 }
 
-#info {
+/* #info {
     margin-left: 100px;
     border: 5px, solid, blue;
-}
+} */
