@@ -1,97 +1,139 @@
-body {
-    background-color: rgb(238, 230, 240);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    width: 80%;
-    color: rgb(57, 29, 61);
-    font-family: Arial, Helvetica, sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: rgba(253, 252, 253, 0.87);
+  scroll-behavior: smooth;
 }
 
-/* [first-line] {
-    margin-top: 10px;
-} */
-
-[top-heading] {
-    background: pink;
-    border-radius: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    /* position: sticky;
-    top: 0; */
-}
-
-[work], [education], [skills] {
-    border: 5px solid pink;
-    padding: 7px;
-}
-
-em {
-    font-size: 15px;
-}
-#header-name {
-    font-size: 35px;
-    text-align: left;
-    color: rgb(122, 6, 122);
-    /* padding: 10px; */
-    border-radius: 3px;
-    margin-left: 3px;
-    /* margin-top: 15px; */
-    font-weight: bold;
-}
-
-nav {
-    position: absolute;
-    top: 33px;
-    right: 10.3%;
-    float: right;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkviolet;
+* {
+  text-decoration: none;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    padding: 150px, 130px;
-    border: 5px solid pink;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 250px;
+  height: 250px;
+  border: solid 5px darkmagenta;
+  border-radius: 50%;
 }
 
-address {
-    text-align: center;
-    font-weight: 3px;
-    padding-bottom: 20px;
+img:hover {
+  border: solid 5px #f0aebb;
 }
 
-h3 {
-    color: rgb(63, 4, 63);
-    font-size: 30px;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
+#img-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 251px;
+  height: 251px;
+  border-radius: 50%;
 }
 
-.class {
-    border: 5px, solid, royalblue;
+#full-name {
+  background: white;
+  font-size: 35px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 39px;
+  /* margin-top: 40px; */
+}
+
+#full-name a {
+  color: purple;
+}
+
+#full-name a:hover {
+  color: #f0aebb;
+}
+
+#address {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#main-content {
+  text-align: center;
+}
+
+#work, #education, #skills, #hobbies, #contact, #contact-form {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-form {
+  align-content: 
+}
+
+#nav-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 19px;
+}
+
+body {
+margin-bottom: 60px;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: auto;
+  right: auto;
+  height: 28px;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background: purple;
+  color: antiquewhite;
+  margin-top: 0;
+}
+
+nav ul {
+  position: relative;
+  bottom: 9px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: antiquewhite;
+}
+
+nav ul a {
+  color: whitesmoke;
+}
+
+nav ul a:hover {
+  color: #f0aebb;
+}
+
+#contact-me-icon {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  height: 59px;
+  width: 59px;
+}
+
+hr {
+  border: 3px solid rgb(252, 61, 252);
+  border-radius: 3px;
 }
 
 footer {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  padding-top: 40px;
 }
-
-/* #info {
-    margin-left: 100px;
-    border: 5px, solid, blue;
-} */
