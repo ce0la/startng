@@ -59,16 +59,19 @@ img:hover {
 
 #main-content {
   text-align: center;
+  width: 600px;
+  margin: auto;
 }
 
 #work, #education, #skills, #hobbies, #contact, #contact-form {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 #contact-form {
-  align-content: 
+  text-align: center;
 }
 
 #nav-wrapper {
@@ -86,7 +89,17 @@ ul li {
 }
 
 body {
-margin-bottom: 60px;
+margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  border: 4px ridge rgb(253, 65, 244);
+  padding-top: 5px;
+}
+
+#contact-form-greeting {
+  border: none;
 }
 
 nav {
@@ -128,9 +141,46 @@ nav ul a:hover {
   width: 59px;
 }
 
+input {
+  padding-top: 9px;
+  margin-top:13px;
+  width: 300px;
+}
+
+textarea {
+  margin-top: 13px;
+}
+
 hr {
   border: 3px solid rgb(252, 61, 252);
   border-radius: 3px;
+  width: 80% !important;
+}
+
+button {
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  background: rgb(197, 12, 197);
+  font-size: 15px;
+}
+
+button:hover {
+  color: purple;
+  border-radius: 17px;
+  background: violet;
+  box-shadow: 0px 2px 1px 0px blue;
+}
+
+#go-to-top {
+  position: sticky;
+  top: 200px;
+  height: 45px;
+  width: 45px;
+  border-radius: none;
 }
 
 footer {

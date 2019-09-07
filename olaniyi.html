@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <div id="nav-wrapper">
             <nav>
                 <ul>
@@ -16,7 +16,7 @@
                     <a href="#work"><li>WORK EXPERIENCE</li></a>
                     <a href="#skills"><li>ADDITIONAL SKILLS</li></a>
                     <a href="#hobbies"><li>HOBBIES</li></a>
-                    <a href="#contact"><li>CONTACT</li></a>
+                    <a href="#contact-form"><li>CONTACT</li></a>
                 </ul>
             </nav>
         </div>
@@ -138,11 +138,11 @@
 
     <section id="contact-form">
         <form action="#">
-            <h3>Hello there! Please tell me how I can help you:</h3>
-            <input type="text" placeholder="Name"> <br>
-            <input type="text" placeholder="E-mail"> <br>
-            <input type="text" placeholder="Subject"> <br>
-            <textarea name="contact-me" id="contact-me" cols="30" rows="10"></textarea> <br>
+            <h3 id="contact-form-greeting">Hello there! Please tell me how I can help you:</h3>
+            <input type="text" placeholder="Name" id="name" minlength="4"> <br>
+            <input type="text" placeholder="E-mail" id="email"> <br>
+            <input type="text" placeholder="Subject" id="subject"> <br>
+            <textarea name="contact-me" id="contact-me" cols="36" rows="10" minlength="20" placeholder="Enter your message here"></textarea> <br>
             <button>Send</button>
         </form>
     </section>
@@ -151,6 +151,8 @@
     <a href="#contact-form"><img src="https://res.cloudinary.com/ce0la/image/upload/v1567836449/94970399-mail-neon-outline-icon-message-email-luminous-thin-button-contact-outline-icon-ultra-violet-color-tr_vq1l8x.png" alt="Contact Me" id="contact-me-icon"></a>
 
     <hr>
+
+    <a href="#top"><img src="https://res.cloudinary.com/ce0la/image/upload/v1567856681/30-304364_this-free-icons-png-design-of-glossy-up_nvvm6i.jpg" alt="Go back to top of page" id="go-to-top"></a>
 
     <footer><strong><a href="mailto: oshunboteo@gmail.com">oshunboteo@gmail.com</a>, <a
                 href="tel: +2348108175512">+2348108175512</a></strong></footer>
