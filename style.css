@@ -135,11 +135,15 @@ nav ul a:hover {
 
 #contact-me-icon {
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 9px;
+  right: 9px;
   height: 59px;
   width: 59px;
 }
+
+/* #contact-me-icon:hover {
+  tra
+} */
 
 input {
   padding-top: 9px;
